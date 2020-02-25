@@ -18,12 +18,21 @@ namespace fibonacci.Controllers
     {
         private readonly IFibonacciService _service;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="FibonacciController"/> class.
+        /// </summary>
+        /// <param name="service">A <see cref="IFibonacciService"/> object that
+        /// gets the nth element in the sequence.</param>
         public FibonacciController(IFibonacciService service)
         {
             _service = service;
         }
 
-        // Example: GET /api/fibonacci/40
+        /// <summary>
+        /// Exposes a GET endepoint to get the nth element in the sequence.
+        /// </summary>
+        /// <param name="element">The index of the element to get the value from.</param>
+        /// <example>HTTP GET /api/fibonacci/40</example>
         [HttpGet("{element=40}")]
         public FibonacciResult Get(int element)
         {

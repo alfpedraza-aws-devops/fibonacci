@@ -2,6 +2,9 @@ using System;
 
 namespace fibonacci.Models
 {
+    /// <summary>
+    /// Contains the values of the Fibonacci calculation.
+    /// </summary>
     public class FibonacciResult
     {
         /// <summary>
@@ -13,10 +16,5 @@ namespace fibonacci.Models
         /// The value of the element from the Fibonnaci sequence.
         /// </summary>
         public int Value { get; set; }
-
-        /// <summary>
-        /// Contains the Host IP Address and current UTC time.
-        /// </summary>
-        public string Metadata { get; set; }
     }
 }
