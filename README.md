@@ -13,9 +13,9 @@ To execute this service, deploy it to a web server and then execute a `curl` usi
 curl http://url.of.this.service/api/fibonacci/40
 ```
 
-## Load Test
+## Cluster Autoscaler Test
 
-This service is used to generate a heavy processing load on the CPU of the underlying machine running it. Because of this intense processing load, it's also used for a  cluster load test.
+This service is used to generate a heavy processing load on the CPU of the underlying machine running it. Because of this intense processing load, it's also used for a cluster autoscaler test.
 
 ### Example 
 To mention an example, generating the *40th* element in the Fibonacci sequence takes about 1 second on a `ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20200129` machine on AWS. This AWS virtual machine has 2 `Intel(R) Xeon(R) CPU E5-2676 v3` vCPU's running at `2.40GHz` each.

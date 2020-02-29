@@ -12,7 +12,7 @@ namespace fibonacci.Services
         /// Gets the nth element in the Fibonacci sequence.
         /// </summary>
         /// <param name="element">The index of the element to get the value from.</param>
-        /// <returns>An object containing the calculation and host information.</returns>
+        /// <returns>An object containing the calculation.</returns>
         FibonacciResult Calculate(int element);
     }
 }

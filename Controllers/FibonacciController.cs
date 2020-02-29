@@ -10,7 +10,7 @@ namespace fibonacci.Controllers
     /// </summary>
     /// <remarks>
     /// This endpoint is used to generate a heavy processing load on the CPU and can be used
-    /// for a machine cluster load test.
+    /// for a cluster autoscaler test.
     /// </remarks>
     [ApiController]
     [Route("api/[controller]")]
