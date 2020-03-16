@@ -14,7 +14,7 @@ namespace fibonacci.Services
         /// Initializes a new instance of the <see cref="FibonacciService"/> class.
         /// </summary>
         /// <param name="calculator">A <see cref="IFibonacciCalculator"/> object that
-        /// calculates the nth element in the sequence.</param>
+        /// calculates the nth element in the Fibonacci sequence.</param>
         public FibonacciService(IFibonacciCalculator calculator)
         {
             _calculator = calculator;

@@ -3,7 +3,7 @@ using System;
 namespace fibonacci.Models
 {
     /// <summary>
-    /// Contains the values of the Fibonacci calculation.
+    /// Contains the result of the Fibonacci calculation.
     /// </summary>
     public class FibonacciResult
     {
